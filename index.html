@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern Stitch Tailor</title>
+
+    <body>
+        <header class="site-header">
+            <div class="container header-inner">
+                <div class="logo">SilverStitch</div>
+                <nav>
+                    <a href="#services">Services</a>
+                    <a href="gallery">Gallery</a>
+                    <a href="booking">Book a fitting</a>
+                </nav>
+            </div>
+        </header>
+
+        <section class="hero">
+            <div class="container hero-inner">
+                <p class="hero-eyebrow">Est. 2010 . Bespoke Tailoring </p>
+                <h1>clothes built<br>to your measurements ,<br>not the other way around.</h1>
+                <p class="hero-sub">Suits, sherwanis and alterations, hand-finished in-house. Book a fitting and we'll take it from there.</p>
+                <a href="#booking" class="btn btn-primary">Book a fitting</a>
+            </div>
+        </section>
+
+        <section id="services" class="services">
+            <div class="container">
+                <h2>What we do</h2>
+                <div class="service-grid">
+
+                    <div class="service-card">
+                        <h3>Custom Suits </h3>
+                        <p>Handcrafted suits tailored to your exact measurements.</p>
+                    </div>
+
+                    <div class="service-card">
+                        <h3>Alterations</h3>
+                        <p>Expert alterations to ensure your clothes fit perfectly.</p>
+                    </div>
+
+                    <div class="service-card">
+                        <h3>Custom Shirts</h3>
+                        <p>Shirts made to measure with a variety of fabrics and styles.</p>
+                    </div>
+
+                    <div class="service-card">
+                        <h3>Custom Sherwanis</h3>
+                        <p>Traditional sherwanis tailored to your specifications for special occasions.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="gallery" class="gallery">
+            <div class="container">
+                <h2>Recent work</h2>
+                <div class="gallery-grid">
+                    <div class="gallery_item">Photo 1</div>
+                    <div class="gallery_item">Photo 2</div>
+                    <div class="gallery_item">Photo 3</div>
+                    <div class="gallery_item">Photo 4</div>
+                    <div class="gallery_item">Photo 5</div>
+                    <div class="gallery_item">Photo 6</div>
+                </div>
+                <p class="gallery-note">(These boxes are placeholders - swap with original photos after completion)</p>
+            </div>
+        </section>
+
+        <section id="booking" class=""booking>
+            <div class="container booking-inner">
+                <div class="booking-text">
+                    <h2>Book a fitting</h2>
+                <p>Tell us what you need and a preferred date. We'll confirm by phone.</p>
+            </div>
+
+            <form id="booking-form" class="booking-form">
+                <label for="name">Full name</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="phone">Phone number</label>
+                <input type="tel" id="phone" name="phone" required>
+
+                <label for="service">Service</label>
+                <select id="service" name="service">
+                <option value="custom-suit">Custom suit</option>
+                <option value="alteration">Alteration</option>
+                <option value="occasion-wear">Wedding / occasion wear</option>
+                <option value="shirt">Shirt making</option>
+                </select>
+
+                <label for="date">Preferred date</label>
+                <input type="date" id="date" name="date" required>
+
+                <label for="notes">Notes (optional)</label>
+                <textarea id="notes" name="notes" rows="3"></textarea>
+
+                <button type="submit" class="btn-primary">Request booking</button>
+
+                <p id="form-message" class="form-message"></p>
+            </form>
+            </div>
+        </section>
+
+        <footer class="site-footer">
+            <div class="container footer-inner">
+            <div>
+                <div class="logo">Silverstitch</div>
+                <p>Chitragupt Nagar , Jamshedpur</p>
+            </div>
+            <div>
+                <p>Tue–Sun, 10am–7pm</p>
+                <p>+91 6203275818</p>
+            </div>
+            </div>
+        </footer>
+
+        <script src="js/script.js"></script>
+    </body>
