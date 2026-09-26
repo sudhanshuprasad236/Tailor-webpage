@@ -1,0 +1,12 @@
+CREATE DATABASE IF NOT EXISTS tailor_shop;
+USE tailor_shop;
+
+CREATE TABLE IF NOT EXISTS bookings (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(100) NOT NULL,
+    phone VARCHAR(15) NOT NULL,
+    service VARCHAR(50) NOT NULL,
+    booking_date DATE NOT NULL,
+    notes TEXT,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
